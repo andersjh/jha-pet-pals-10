@@ -18,7 +18,8 @@ app = Flask(__name__)
 #################################################
 
 
-dburl = "sqlite:///db.sqlite"
+# dburl = "sqlite:///db.sqlite"
+dburl = "postgres://pqahrvlmkmfvmz:a23399fb321b1077bf988df28d8abc357f056602c83365949c8808e1d6af596a@ec2-54-235-100-99.compute-1.amazonaws.com:5432/dbns85t5gu8ndn"
 
 # create route that renders index.html template
 @app.route("/")
